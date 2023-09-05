@@ -139,7 +139,7 @@
     width: 20px;
     height: 20px;
   }
-  .footer-container {
+  footer {
     padding: 40px;
   }
   .footer-items-1 {
@@ -223,7 +223,7 @@
   .game-category {
     margin: 30px;
   }
-  .footer-container {
+  footer {
     padding: 30px;
   }
 }
