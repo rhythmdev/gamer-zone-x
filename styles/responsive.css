@@ -2,6 +2,7 @@
 @media screen and (max-width: 576px) {
   nav {
     margin: 30px;
+    box-shadow: none;
   }
   .nav-container {
     flex-direction: column;
