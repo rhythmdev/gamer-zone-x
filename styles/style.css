@@ -104,6 +104,13 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+.banner-content {
+  fill: linear-gradient(
+    235deg,
+    rgba(140, 87, 238, 0.03) 3.9%,
+    rgba(241, 68, 174, 0.03) 100.56%
+  );
+}
 .banner-content,
 .banner-img {
   width: 50%;
@@ -156,4 +163,58 @@ nav {
   background: #4ec5f7;
   margin-left: 15px;
   margin-top: 10px;
+}
+
+/* gamer area styles */
+.gamer {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 13.13%,
+    rgba(255, 66, 165, 0.03) 87.94%
+  );
+  margin: 50px 110px;
+}
+.gamer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gamer-img,
+.gamer-content {
+  width: 50%;
+}
+.gamer-img img {
+  width: 100%;
+  height: 100%;
+}
+.gamer-content {
+  text-align: right;
+}
+.gamer-content h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gamer-content p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 30px;
+  color: #534c64;
+  margin: 20px 0 20px 50px;
+  width: 90%;
+}
+.gamer-content .gamer-pur {
+  color: #534c64;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 45px;
+}
+.gamer-content h4 {
+  color: #534c64;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 45px;
 }
