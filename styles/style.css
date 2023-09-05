@@ -9,8 +9,21 @@
 /* common styles */
 :root {
   --heading-color: #0b0223;
+  --text-color: #534c64;
 }
-
+.btn-primary {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  border-radius: 48px;
+  padding: 20px 40px;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  cursor: pointer;
+  margin-top: 10px;
+}
 body {
   font-family: "Work Sans", sans-serif;
   max-width: 1420px;
@@ -79,4 +92,68 @@ nav {
 .fa-tiktok {
   font-size: 1.5rem;
   text-shadow: 1px 1px #f00044, -1px -1px #08fff9;
+}
+
+/* banner area styles */
+.banner {
+  background: #fff;
+  margin: 50px 110px;
+}
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-content,
+.banner-img {
+  width: 50%;
+}
+.banner-content h3 {
+  color: var(--heading-color);
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.banner-content h2 {
+  font-size: 5.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-text {
+  color: var(--text-color);
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 20px 0;
+}
+.banner-img img {
+  width: 100%;
+  height: auto;
+}
+.fa-circle-play,
+.fa-download {
+  color: #ff42a5;
+  margin-right: 5px;
+}
+.fa-user {
+  color: #0b0223;
+  margin-right: 5px;
+}
+.rogue-btn {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  border-radius: 48px;
+  padding: 20px 40px;
+  cursor: pointer;
+  background: #4ec5f7;
+  margin-left: 15px;
+  margin-top: 10px;
 }

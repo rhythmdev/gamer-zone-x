@@ -1,12 +1,40 @@
 /* mobile device */
 @media screen and (max-width: 576px) {
   nav {
-    margin: 20px;
+    margin: 30px;
   }
   .nav-container {
     flex-direction: column;
   }
-
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner {
+    margin: 30px;
+  }
+  .banner-content {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .banner-content,
+  .banner-img {
+    width: 100%;
+  }
+  .banner-content h3 {
+    font-size: 2rem;
+  }
+  .banner-content h2 {
+    font-size: 4rem;
+  }
+  .btn-primary {
+    font-size: 1rem;
+    padding: 15px 25px;
+  }
+  .rogue-btn {
+    font-size: 1rem;
+    padding: 15px 25px;
+    margin-left: 5px;
+  }
   .menu-container ul {
     flex-direction: column;
     margin-top: 25px;
@@ -16,5 +44,19 @@
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .menu-container ul {
     flex-direction: column;
+  }
+  .banner-container {
+    flex-direction: column;
+  }
+  .banner-content,
+  .banner-img {
+    width: 100%;
+  }
+  .banner-content {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .banner-img {
+    margin-top: 20px;
   }
 }
