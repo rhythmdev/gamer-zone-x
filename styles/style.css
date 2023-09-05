@@ -304,3 +304,56 @@ nav {
   text-align: center;
   margin-top: 10px;
 }
+/* play instantly area styles */
+.play-instantly {
+  background: #fff;
+  margin: 80px 110px;
+}
+.play-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.play-content,
+.play-image-area {
+  width: 50%;
+}
+.play-content {
+  text-align: right;
+}
+.play-content h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 60px;
+  color: #0b0223;
+}
+.play-color-title {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.play-description {
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 30px;
+  width: 80%;
+  display: inline-block;
+  margin-top: 10px;
+}
+.play-image-area {
+  position: relative;
+}
+.play-image-area img {
+  width: 100%;
+}
+.play-child-img img {
+  width: 60%;
+}
+.play-child-img {
+  position: absolute;
+  bottom: -8%;
+  left: -12%;
+}
