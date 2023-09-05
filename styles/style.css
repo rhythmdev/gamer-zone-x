@@ -1,0 +1,82 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* common styles */
+:root {
+  --heading-color: #0b0223;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  max-width: 1420px;
+  margin: 0 auto;
+}
+
+/* navbar area styles */
+nav {
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  margin: 30px 120px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo-title {
+  color: var(--heading-color);
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.logo-title span {
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu-container ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.menu-container li {
+  list-style: none;
+  color: #3c354f;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.menu-container li:hover {
+  color: #ff42a5;
+  transition: 1s;
+  cursor: pointer;
+}
+#follow {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 12px 20px;
+}
+.fa-youtube {
+  color: #f61c0d;
+  font-size: 1.5rem;
+}
+.fa-tiktok {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px #f00044, -1px -1px #08fff9;
+}
