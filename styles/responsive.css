@@ -64,6 +64,18 @@
     width: 100%;
     margin: 20px auto;
   }
+  .online-games {
+    margin: 30px;
+  }
+  .video-card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .online-game-content h2 {
+    font-size: 2rem;
+  }
+  .online-game-content {
+    margin-top: 50px;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -96,5 +108,8 @@
   }
   .gamer-img img {
     margin-top: 20px;
+  }
+  .video-card-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
